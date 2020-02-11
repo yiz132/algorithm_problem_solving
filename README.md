@@ -1,2 +1,2 @@
 # algorithms_problem_solving
-Selected problems from Leetcode, Leetcode contests, hackerrank, etc..
+Use vscode plug-in to category and practice selected problems from Leetcode, Leetcode contests, hackerrank, etc..
