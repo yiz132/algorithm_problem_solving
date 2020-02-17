@@ -16,8 +16,8 @@ import java.util.Arrays;
 class Solution {
     public int[][] kClosest(int[][] points, int K) {
         int l = 0;
-        int r = points.length;
-        while (l < r) {
+        int r = points.length-1;
+        while (l <= r) {
             int smaller_counts = helper(points,l,r); //smaller and itself
             if (smaller_counts == K) break;
             if (smaller_counts < K) {
